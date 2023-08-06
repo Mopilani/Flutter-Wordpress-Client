@@ -172,7 +172,7 @@ Widget drawerBtn(String text, Function function) {
   return Column(
       crossAxisAlignment: CrossAxisAlignment.stretch,
       children: <Widget>[
-        RaisedButton(
+        MaterialButton(
           elevation: 2.0,
           //textTheme: ButtonTextTheme.primary,
           splashColor: Colors.cyan,
@@ -200,7 +200,7 @@ Widget socialBtn(String text, IconData iconData, Color color) {
         // Padding(
         // padding: EdgeInsets.all(20.0),
         //),
-        RaisedButton(
+        MaterialButton(
           child: Row(
             children: <Widget>[
               Icon(
